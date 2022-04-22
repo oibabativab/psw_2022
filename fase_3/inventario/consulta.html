@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Programaci&oacute;n de sitios web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">::Computers SAS::..</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Administrador</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="inventario" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Inventario
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="inventario">
+                        <li><a class="dropdown-item" href="registro.html">Registro productos</a></li>
+                        <li><a class="dropdown-item" href="actualizacion.html">Actualizaci&oacute;n de
+                                productos</a></li>
+                        <li><a class="dropdown-item" href="eliminar.html">Eliminaci&oacute;n de productos</a>
+                        </li>
+                        <li><a class="dropdown-item" href="consulta.html">Consulta productos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Utilidades
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../utilidades/calculadora.html">Calculadora</a></li>
+                        <li><a class="dropdown-item" href="../utilidades/bytes.html">Equivalencia bytes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Consulta de productos</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <label for="exampleFormControlInput1" class="form-label">C&oacute;digo de producto</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1"
+                placeholder="C&oacute;digo de producto">
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <button type="button" class="btn btn-primary text-center">Consultar</button>
+    </div>
+
+    <div class="row justify-content-center">
+        <table class="table table-primary table-striped col-8">
+            <thead>
+                <tr>
+                    <th scope="col">C&oacute;digo</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</body>
+
+</html>

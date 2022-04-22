@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #e9eaf6;
+}
+
+.navbar {
+    background: #004669;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
